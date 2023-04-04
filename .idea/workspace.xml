@@ -5,8 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a04644eb-8482-49ed-bdc9-90a40d68cadb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/columnhack/module_one/Bank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/columnhack/module_one/Dollar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/columnhack/module_one/Expression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/columnhack/module_one/Franc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/columnhack/module_one/Money.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/columnhack/module_two/Greeting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/columnhack/module_two/OwnerType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/columnhack/module_two/GreetingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/columnhack/module_two/OwnerTypeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/input.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/columnhack/Dollar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/columnhack/Dollar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/columnhack/Dollar.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/columnhack/MoneyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/columnhack/MoneyTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -14,18 +28,30 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="pewifab5" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
   </component>
   <component name="ProjectId" id="2EFEgubVxkcC0N7pPyYSTxl80nb" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -41,12 +67,57 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "dart.analysis.tool.window.visible": "false",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "show.migrate.to.gradle.popup": "false"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="MoneyTest.testMultiplication" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.columnhack.module_two" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.MoneyTest.testArgumentFromMethod">
+    <configuration name="GreetingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd_by_example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.columnhack.module_two.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.columnhack.module_two" />
+      <option name="MAIN_CLASS_NAME" value="com.columnhack.module_two.GreetingTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GreetingTest.testValueSource" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd_by_example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.columnhack.module_two.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.columnhack.module_two" />
+      <option name="MAIN_CLASS_NAME" value="com.columnhack.module_two.GreetingTest" />
+      <option name="METHOD_NAME" value="testValueSource(java.lang.String)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MoneyTest.csvTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tdd_by_example" />
       <extension name="coverage">
         <pattern>
@@ -56,7 +127,39 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.columnhack" />
       <option name="MAIN_CLASS_NAME" value="com.columnhack.MoneyTest" />
-      <option name="METHOD_NAME" value="testMultiplication" />
+      <option name="METHOD_NAME" value="csvTest(java.lang.String,int,int)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MoneyTest.testArgumentFromMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd_by_example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.columnhack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.columnhack" />
+      <option name="MAIN_CLASS_NAME" value="com.columnhack.MoneyTest" />
+      <option name="METHOD_NAME" value="testArgumentFromMethod(java.lang.String,int,int)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OwnerTypeTest.values" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd_by_example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.columnhack.module_two.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.columnhack.module_two" />
+      <option name="MAIN_CLASS_NAME" value="com.columnhack.module_two.OwnerTypeTest" />
+      <option name="METHOD_NAME" value="values(com.columnhack.module_two.OwnerType)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -64,7 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MoneyTest.testMultiplication" />
+        <item itemvalue="JUnit.MoneyTest.testArgumentFromMethod" />
+        <item itemvalue="JUnit.MoneyTest.csvTest" />
+        <item itemvalue="JUnit.OwnerTypeTest.values" />
+        <item itemvalue="JUnit.GreetingTest.testValueSource" />
+        <item itemvalue="JUnit.GreetingTest" />
       </list>
     </recent_temporary>
   </component>
